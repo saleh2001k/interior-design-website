@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:'Lora', serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.2vw;
+    width: 100%;
+    background-color: rgb(109, 135, 221, 0.288);
+  }
+.menu{
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size : 20px;
+  padding-right: 30px;
+  font-family:'Lora', serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 20px;
+  
+   
+}
+a:hover {
+  color: #ff4040;
+  text-decoration: none;
+}
+.banner{
+  background-color: rgba(109, 135, 221, 0.288);
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  font-family:'Lora', serif;
+  align-items: center;
+  font-size: 64px;
+  line-height: 72px;
+  padding: 43px 0 115px 7px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  mix-blend-mode:initial;
+}
+
+span{
+  color: #f53b4a;
+  
+}
+
+img{
+  width : 100% ;
+  
+}
+
+
+.row{
+  display :flex;
+  flex-direction: row;
+}
+.item1{
+flex-basis : 50%;
+z-index: 10;
+
+}
+
+.item2{
+  flex-basis : 50%;
+}
+
+.contenu {
+  padding : 40px;
+  text-align: center;
+  align-self: center;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 5em;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-section div{
+  margin-right: 10em;
+}
+
+.footer-section span{
+  text-align: center;
+  margin-left: 2em;
+  font-size: 17px;
+}
+.footer-info ul li a:hover{
+  color: rgb(44, 9, 9);
+}
+
+.footer-section .personal-info{
+  margin-left: 15em;
+}
+
+
+@media all and (max-width: 768px){
+  section div {
+    width: 80%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .section-text h2 {
+    text-align: center; 
+  }
+
+  .section-text p {
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size:2.0vw;
+  }  
+}

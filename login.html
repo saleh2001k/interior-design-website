@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <section class="logincontainer">
+        <div class="Loginfield">
+          <div class="loginbutton objectfit">
+            <a href="#" class="button login">Login</a>
+            <div class="logindropdown-content">
+              <form action="#" method="post" class="loginform">
+                <input type="email" name="emailaddress" placeholder="Email"></input>
+                <input type="password" name="password" placeholder="Password"></input>
+                <a href="desgin.html"><input type="submit" value="Login"></input></a>
+                
+              </form>
+            </div>
+          </div>
+          <div class="signupbutton objectfit">
+            <a href="#" class="button signup">Sign Up</a>
+            <div class="signupdropdown-content">
+              <form action="#" method="post" class="signupform">
+                <input type="text" name="firstname" placeholder="First Name" required></input>
+                <input type="text" name="lastname" placeholder="Last Name" required></input>
+                <input type="phone" name="phonenumber" placeholder="Phone Number" minlength="10" required></input>
+                <input type="email" name="emailaddress" placeholder="Email" required></input>
+                <input type="password" name="password" placeholder="Password" minlength="10" required></input>
+                <span class="birthdate">Birthdate:
+                <input type="number" name="quantity" placeholder="Mth" min="1" max="12" class="month" required>
+                <input type="number" name="quantity" placeholder="Day" min="1" max="31" class="day" required>
+                <input type="number" name="quantity" placeholder="Year" min="1888" max="2005" class="year" required>
+                  <input type="submit" value="Create Account" class="createaccount"></input></span>
+                <span>Create Business Account: <a href="#" class="createbusinessaccount">Click Here!</a></span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
