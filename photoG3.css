@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: auto;
   }
+
   body {
     background-color: #1d2c2f;
     display: flex;
